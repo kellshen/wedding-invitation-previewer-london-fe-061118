@@ -6,6 +6,14 @@ document.addEventListener("DOMContentLoaded",
           
         })})
         
+document.addEventListener("DOMContentLoaded", 
+    function() {
+      console.log(document.getElementById("formSecondName"))
+        document.getElementById("formSecondName").addEventListener('keypress', function(e) {
+        document.getElementById("secondName").innerHTML += e.key;   
+          
+        })})      
+
         
 
 
