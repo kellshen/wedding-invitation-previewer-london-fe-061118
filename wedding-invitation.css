@@ -53,6 +53,7 @@ p {
 .container > div {
   background-color: #ffffff;
   width: 100px;
+  margin: 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
