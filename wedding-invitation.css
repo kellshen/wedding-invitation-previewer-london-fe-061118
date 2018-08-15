@@ -65,7 +65,7 @@ p {
   width: 500px;
   height: 800px;
   margin-right: 200px;
-  position:absolute;
+  text-align: justify-content;
   border-style: groove;
   border-color: #d9d9d9;
   border-width: 1.5px;
