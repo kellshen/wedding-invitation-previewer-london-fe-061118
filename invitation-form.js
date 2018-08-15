@@ -22,4 +22,10 @@ document.addEventListener("DOMContentLoaded",
           
         })})            
 
-
+document.addEventListener("DOMContentLoaded", 
+    function() {
+      console.log(document.getElementById("formTime"))
+        document.getElementById("formTime").addEventListener('keypress', function(e) {
+        document.getElementById("time").innerHTML += e.key;   
+          
+        })})     
