@@ -29,3 +29,11 @@ document.addEventListener("DOMContentLoaded",
         document.getElementById("time").innerHTML += e.key;   
           
         })})     
+
+document.addEventListener("DOMContentLoaded", 
+    function() {
+      console.log(document.getElementById("formLocation"))
+        document.getElementById("formLocation").addEventListener('keypress', function(e) {
+        document.getElementById("location").innerHTML += e.key;   
+          
+        })})
