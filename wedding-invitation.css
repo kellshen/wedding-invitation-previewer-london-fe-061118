@@ -43,13 +43,6 @@ p {
 }
 
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-}
-
 .flex-container > div {
   background-color: #ffffff;
   width: 100px;
