@@ -50,7 +50,7 @@ p {
   background-color: #f2f2f2;
 }
 
-.flex-container > div {
+.container > div {
   background-color: #ffffff;
   width: 100px;
   margin: 10px;
