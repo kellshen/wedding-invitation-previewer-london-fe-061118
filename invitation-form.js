@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", 
     function() {
       console.log(document.getElementById("formFirstName"))
-        document.getElementById("formFirstName").addEventListener('oninput', function(e) {
+        document.getElementById("formFirstName").addEventListener('keypress', function(e) {
         document.getElementById("firstName").innerHTML += e.key;   
           
         })})
