@@ -14,6 +14,12 @@ document.addEventListener("DOMContentLoaded",
           
         })})      
 
-        
+document.addEventListener("DOMContentLoaded", 
+    function() {
+      console.log(document.getElementById("formDate"))
+        document.getElementById("formDate").addEventListener('keypress', function(e) {
+        document.getElementById("date").innerHTML += e.key;   
+          
+        })})            
 
 
