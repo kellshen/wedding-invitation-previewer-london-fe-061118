@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded",
       console.log(document.getElementById("formFirstName"))
         document.getElementById("formFirstName").addEventListener('keypress', function(e) {
         document.getElementById("firstName").value = e.value;   
-           console.log("Here")
+           console.log(e)
           
         })})
